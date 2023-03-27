@@ -25,10 +25,6 @@ const flight_db = new mongoose.Schema({
     airline_company:{
         require:true,
         type:String
-    },
-    seats:{
-        require:true,
-        type:Number
     }
 })
 
